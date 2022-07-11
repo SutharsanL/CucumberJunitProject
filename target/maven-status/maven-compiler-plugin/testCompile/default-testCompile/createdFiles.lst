@@ -1,0 +1,3 @@
+com\vcentry\lab\runner\TestRunner.class
+com\vcentry\lab\stepDefinition\TestSteps.class
+com\vcentry\lab\stepDefinition\HooksClass.class
