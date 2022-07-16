@@ -14,7 +14,7 @@ WebDriver driver;
 
 public LoginPage(WebDriver driver) {
 	this.driver=driver;
-	PageFactory.initElements(driver, this);
+	PageFactory.initElements(driver, LoginPage.class);
 }
 
 @FindBy(id="user-name")

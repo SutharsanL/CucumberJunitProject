@@ -12,6 +12,7 @@ public class TestSteps extends BaseClass{
 @Given("User should Open browser as {string}")
 public void user_should_open_browser_as(String string) {
     openBrowser(string);
+    System.out.println(getDriver);
     initObject();
 }
 

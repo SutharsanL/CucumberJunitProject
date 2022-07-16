@@ -10,10 +10,10 @@ features="src/test/resources/features",
 glue="com.vcentry.lab.stepDefinition", //stepdefn pkg name
 plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 monochrome = true, // readable console
-dryRun = false, //dry run used to check feature file steps 
+dryRun = false //dry run used to check feature file steps 
                   //were implemented in TestSteps
 //tags = "@validlogin or @sanity"
-tags="@login"
+//,tags="@login"
 		)
 
 public class TestRunner {
